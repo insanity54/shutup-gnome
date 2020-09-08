@@ -1,6 +1,6 @@
 # shutup-gnome
 
-![strikethrough notification bell](https://github.com/insanity54/shutup-gnome/blob/master/shutup-gnome/icon.jpg?raw=true)
+![strikethrough notification bell](https://github.com/insanity54/shutup-gnome/blob/master/icon.jpg)
 
 I don't like the notification system in Pop!_OS-- it's distracting and it violates several of the rules that I think computers and UI should follow which are outlined in the great book [Program or be Programmed: Ten Commands for a Digital Age](https://amzn.to/2Zl443n).
 
