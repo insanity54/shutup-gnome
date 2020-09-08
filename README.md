@@ -16,6 +16,10 @@ I worked around #1 with a [startup application](startup-application.jpg) that ru
 
 My workaround to #2 is a brute force one-- run `gsettings set org.gnome.desktop.notifications show-banners false` every minute! This project generates the systemd service and timer files necessary to accomplish this task.
 
+## Dependencies
+
+  * Node.js
+
 ## Usage
 
 `npm install`
