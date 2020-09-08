@@ -1,0 +1,26 @@
+{
+  "name": "shutup-gnome",
+  "version": "0.0.1",
+  "description": "A brute force way of ensuring that gnome stays in do not disturb mode. Meant to be called via systemd.",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"This codebase is meant to be ran via systemd. use 'npm systemd' to set up.\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "systemd": "bash -x ./install-systemd-files.sh",
+    "postinstall": "npm run systemd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insanity54/shutup-gnome.git"
+  },
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/insanity54/shutup-gnome/issues"
+  },
+  "homepage": "https://github.com/insanity54/shutup-gnome",
+  "dependencies": {
+    "config": "^3.3.1",
+    "liquid": "^5.0.0"
+  }
+}
