@@ -10,7 +10,7 @@ let child_process = require('child_process');
 let execFile = util.promisify(child_process.execFile);
 let config = require('config');
 
-const templatePath = path.join(__dirname, 'templates', 'shutup-gnome-timer.j2');
+const templatePath = path.join(__dirname, 'templates', 'shutup-gnome.timer.j2');
 const calendar = config.timerSpecification;
 
 (async () => {

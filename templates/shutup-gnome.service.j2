@@ -1,9 +1,9 @@
 [Unit]
-Description=Ebay Shipping Last Call Notifier
+Description=Shutup, Gnome!
 
 [Service]
 Type=oneshot
-ExecStart={{ node }} {{ entrypoint }}
+ExecStart=/usr/bin/gsettings set org.gnome.desktop.notifications show-banners false
 Environment="DISPLAY=:0"
 User={{ user }}
 Group={{ group }}

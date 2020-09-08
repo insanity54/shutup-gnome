@@ -18,7 +18,7 @@ My workaround to #2 is a brute force one-- run `gsettings set org.gnome.desktop.
 
 ## Dependencies
 
-  * Node.js
+  * Node.js (Used to generate systemd files from template)
 
 ## Usage
 
