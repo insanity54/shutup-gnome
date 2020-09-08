@@ -8,9 +8,11 @@ If I could, I would like to completely disable/uninstall the notification functi
 
 My workaround to the notification system is to permanently leave it in do not disturb (DND) mode. This has been a real challenge because
 
-1. There is a bug in GNOME3 which causes the system to forget my DND setting upon rebooting.
+1. There is a [bug](https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1873692) in GNOME3 which causes the system to forget my DND setting upon rebooting.
 
 2. Pop!_OS(?) or some other software disables Do Not Disturb mode when returning from the lock screen
+
+I worked around #1 with a [startup application](startup-application.jpg) that runs `gsettings set org.gnome.desktop.notifications show-banners false`
 
 My workaround to #2 is a brute force one-- run `gsettings set org.gnome.desktop.notifications show-banners false` every minute! This project generates the systemd service and timer files necessary to accomplish this task.
 
